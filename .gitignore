@@ -41,3 +41,6 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+
+# node module for frontend
+/client/node_modules
