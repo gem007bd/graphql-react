@@ -9,7 +9,9 @@ import './theme/bootstrap-cyborg.min.css';
 import logo from './spacex-logo.jpg';
 
 const client = new ApolloClient({
-  uri: 'http://localhost:5000/graphql'
+  //uri: 'http://localhost:5000/graphql'
+  // change for dyploy
+  uri: '/graphql'
 })
 
 function App() {
